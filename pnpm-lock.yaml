@@ -340,6 +340,9 @@ importers:
       '@babel/generator':
         specifier: ^7.20.14
         version: 7.28.0
+      '@babel/preset-typescript':
+        specifier: ^7.27.1
+        version: 7.27.1(@babel/core@7.28.0)
       '@babel/traverse':
         specifier: ^7.20.13
         version: 7.28.0
