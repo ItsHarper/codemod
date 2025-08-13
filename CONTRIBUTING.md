@@ -19,7 +19,7 @@ $ cd codemod
 $ pnpm install
 ```
 
-Then make sure the tests pass:
+Then make sure the tests pass (you have to run this for each package separately):
 
 ```sh
 $ pnpm test
