@@ -16,7 +16,7 @@ $ npm install @codemod/core
 import { transform } from '@codemod/core'
 
 const result = transform('a ?? b', {
-  plugins: ['@babel/plugin-proposal-nullish-coalescing-operator'],
+  plugins: ['@babel/plugin-transform-nullish-coalescing-operator'],
 })
 
 console.log(result.code)

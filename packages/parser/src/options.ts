@@ -26,7 +26,6 @@ const DefaultParserPlugins = new Set<ParserPlugin>([
   'exportNamespaceFrom',
   'functionBind',
   'functionSent',
-  'importAssertions',
   'importMeta',
   'jsx',
   'logicalAssignment',
