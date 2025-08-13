@@ -93,6 +93,7 @@ export function buildOptions({
     plugins,
     sourceFilename,
     ...rest,
+    createImportExpressions: true,
   }
 }
 
