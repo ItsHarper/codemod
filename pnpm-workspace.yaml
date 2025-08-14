@@ -1,2 +1,8 @@
 packages:
   - './packages/*'
+
+linkWorkspacePackages: deep
+
+onlyBuiltDependencies:
+  - core-js
+  - esbuild
